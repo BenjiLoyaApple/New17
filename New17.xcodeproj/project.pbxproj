@@ -26,6 +26,7 @@
 		E40372B52B6BF6E8007C1C9B /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40372AF2B6BF6E8007C1C9B /* Toast.swift */; };
 		E40372B62B6BF6E8007C1C9B /* Shine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40372B02B6BF6E8007C1C9B /* Shine.swift */; };
 		E40372B72B6BF6E8007C1C9B /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40372B12B6BF6E8007C1C9B /* ColorManager.swift */; };
+		E40372BA2B6BF824007C1C9B /* FlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40372B92B6BF824007C1C9B /* FlightView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		E40372AF2B6BF6E8007C1C9B /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		E40372B02B6BF6E8007C1C9B /* Shine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shine.swift; sourceTree = "<group>"; };
 		E40372B12B6BF6E8007C1C9B /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		E40372B92B6BF824007C1C9B /* FlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +83,9 @@
 		E40372802B6BF696007C1C9B /* New17 */ = {
 			isa = PBXGroup;
 			children = (
-				E40372AB2B6BF6E8007C1C9B /* Extensions */,
-				E40372902B6BF6D0007C1C9B /* Core */,
 				E403728F2B6BF6B2007C1C9B /* App */,
+				E40372902B6BF6D0007C1C9B /* Core */,
+				E40372AB2B6BF6E8007C1C9B /* Extensions */,
 				E40372832B6BF696007C1C9B /* ContentView.swift */,
 				E40372852B6BF697007C1C9B /* Assets.xcassets */,
 				E40372872B6BF697007C1C9B /* Preview Content */,
@@ -110,6 +112,7 @@
 		E40372902B6BF6D0007C1C9B /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				E40372B82B6BF813007C1C9B /* Components */,
 				E40372912B6BF6D0007C1C9B /* Home */,
 				E40372932B6BF6D0007C1C9B /* Tab Bar */,
 				E40372962B6BF6D0007C1C9B /* Root */,
@@ -190,14 +193,22 @@
 		E40372AB2B6BF6E8007C1C9B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				E40372AC2B6BF6E8007C1C9B /* ViewExtensions.swift */,
-				E40372AD2B6BF6E8007C1C9B /* TipView.swift */,
-				E40372AE2B6BF6E8007C1C9B /* OffsetKey.swift */,
-				E40372AF2B6BF6E8007C1C9B /* Toast.swift */,
-				E40372B02B6BF6E8007C1C9B /* Shine.swift */,
 				E40372B12B6BF6E8007C1C9B /* ColorManager.swift */,
+				E40372AE2B6BF6E8007C1C9B /* OffsetKey.swift */,
+				E40372B02B6BF6E8007C1C9B /* Shine.swift */,
+				E40372AD2B6BF6E8007C1C9B /* TipView.swift */,
+				E40372AF2B6BF6E8007C1C9B /* Toast.swift */,
+				E40372AC2B6BF6E8007C1C9B /* ViewExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E40372B82B6BF813007C1C9B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E40372B92B6BF824007C1C9B /* FlightView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +297,7 @@
 				E40372A52B6BF6D0007C1C9B /* ABC.swift in Sources */,
 				E40372B62B6BF6E8007C1C9B /* Shine.swift in Sources */,
 				E40372B22B6BF6E8007C1C9B /* ViewExtensions.swift in Sources */,
+				E40372BA2B6BF824007C1C9B /* FlightView.swift in Sources */,
 				E40372822B6BF696007C1C9B /* New17App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
