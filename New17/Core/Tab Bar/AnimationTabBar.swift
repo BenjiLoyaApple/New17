@@ -35,18 +35,14 @@ struct AnimatedTab: Identifiable {
     var isAnimating: Bool?
 }
                         
-                        
-                        
 /// Tab Bar View
 struct AnimationTabBar: View {
     @State private var activeTab: Tab = .home
     @State private var allTabs: [AnimatedTab] = Tab.allCases.compactMap{ tab -> AnimatedTab? in
         return .init(tab: tab)
     }
-    
     /// Bounce Property
     @State private var bouncesDown: Bool = true
-    
     @State private var tabState: Visibility = .visible
     
     var body: some View {
@@ -80,9 +76,6 @@ struct AnimationTabBar: View {
                     .navigationTitle(Tab.profile.title)
                 }
                 .setUpTab(.profile)
-                
-                
-                
             }
             .zIndex(0)
             
@@ -97,11 +90,9 @@ struct AnimationTabBar: View {
 //            .pickerStyle(.segmented)
 //            .padding()
             
-            
             CustomTabBar()
         }
     }
-    
     
     /// Custom Tab Bar
     @ViewBuilder

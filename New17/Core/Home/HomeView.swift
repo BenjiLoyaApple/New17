@@ -15,6 +15,8 @@ struct HomeView: View {
             }
             .navigationTitle("Home")
             .scrollIndicators(.hidden)
+            .statusBarHidden(true)
+       //     .navigationBarHidden(true)
         }
     }
 }

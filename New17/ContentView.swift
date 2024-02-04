@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
      ///    Redirecting User Based on Log Status
         if logStatus {
-        //    MainView()
+//            TexasView()
             AnimationTabBar()
         } else {
             HomeOnBoard()
