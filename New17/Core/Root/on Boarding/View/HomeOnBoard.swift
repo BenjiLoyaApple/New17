@@ -36,16 +36,17 @@ struct HomeOnBoard: View {
                         logStatus = true
                         start.toggle()
                     } label: {
-                        Text("Continue")
+                        Text("Go")
                             .fontWeight(.semibold)
                             .foregroundColor(.white)
+                            .frame(width: size.width * 0.4)
                             .padding(.vertical, 15)
-                            .frame(maxWidth: .infinity)
                             .background {
                                 Capsule()
-                                    .fill(Color.black)
+                                    .fill(.black)
                             }
                     }
+                    .frame(maxWidth: .infinity)
                  //   .disabled(userName.isEmpty || password.isEmpty)
                     .buttonStyle(PlainButtonStyle())
                     .foregroundColor(.gray.opacity(userName.isEmpty || password.isEmpty ? 0.5 : 1.0))
@@ -91,7 +92,7 @@ struct HomeOnBoard: View {
                 keyboardHeight = 0
         }
         .animation(.spring(response: 0.5, dampingFraction: 0.8, blendDuration: 0), value: keyboardHeight)
-        .preferredColorScheme(.light)
+        .preferredColorScheme(.dark)
     }
 }
 

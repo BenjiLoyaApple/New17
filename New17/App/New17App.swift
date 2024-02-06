@@ -13,14 +13,16 @@ struct New17App: App {
     var body: some Scene {
         WindowGroup {
             RootView {
-                ContentView()
-                    .task {
-                        // Configure and load your tips at app launch.
-                        try? Tips.configure([
-                            //  .displayFrequency(.immediate),
-                            .datastoreLocation(.applicationDefault)
-                        ])
-                    }
+                HeroWrapper {
+                    ContentView()
+                        .task {
+                            // Configure and load your tips at app launch.
+                            try? Tips.configure([
+                                //  .displayFrequency(.immediate),
+                                .datastoreLocation(.applicationDefault)
+                            ])
+                        }
+                }
             }
         }
     }

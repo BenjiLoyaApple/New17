@@ -27,6 +27,7 @@
 		E40372B62B6BF6E8007C1C9B /* Shine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40372B02B6BF6E8007C1C9B /* Shine.swift */; };
 		E40372B72B6BF6E8007C1C9B /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40372B12B6BF6E8007C1C9B /* ColorManager.swift */; };
 		E40372BA2B6BF824007C1C9B /* FlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40372B92B6BF824007C1C9B /* FlightView.swift */; };
+		E4AC03412B6FBFDA00F9E0EF /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AC03402B6FBFDA00F9E0EF /* Hero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		E40372B02B6BF6E8007C1C9B /* Shine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shine.swift; sourceTree = "<group>"; };
 		E40372B12B6BF6E8007C1C9B /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 		E40372B92B6BF824007C1C9B /* FlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightView.swift; sourceTree = "<group>"; };
+		E4AC03402B6FBFDA00F9E0EF /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				E40372AD2B6BF6E8007C1C9B /* TipView.swift */,
 				E40372AF2B6BF6E8007C1C9B /* Toast.swift */,
 				E40372AC2B6BF6E8007C1C9B /* ViewExtensions.swift */,
+				E4AC03402B6FBFDA00F9E0EF /* Hero.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				E40372A22B6BF6D0007C1C9B /* HomeView.swift in Sources */,
 				E40372A82B6BF6D0007C1C9B /* HomeOnBoard.swift in Sources */,
 				E40372A92B6BF6D0007C1C9B /* CustomTextField.swift in Sources */,
+				E4AC03412B6FBFDA00F9E0EF /* Hero.swift in Sources */,
 				E40372A72B6BF6D0007C1C9B /* PageIntro.swift in Sources */,
 				E40372B52B6BF6E8007C1C9B /* Toast.swift in Sources */,
 				E40372B72B6BF6E8007C1C9B /* ColorManager.swift in Sources */,
